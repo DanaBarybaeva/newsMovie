@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_launcher_background"/>
+        <Button
+            android:id="@+id/vote_average"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="13dp"
+
+            android:text="8.5"
+            android:textSize="10dp"
+            android:textStyle="bold"
+
+            android:textColor="@color/black"
+            android:background="@drawable/ic_baseline_circle_24"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:id="@+id/title_film"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Title "
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="realise data:"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="150dp"/>
+
+                <TextView
+                    android:id="@+id/release_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:singleLine="true"
+                    android:layout_marginLeft="250dp"
+
+                    android:text="21.04.2002"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+
+
+            </RelativeLayout>
+            <FrameLayout android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- **** Place Your Content Here **** -->
+
+                <View android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="65dp"
+                    android:background="@drawable/shadow"/>
+
+            </FrameLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+<!--    <ImageView-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/linehorizontal"/>-->
+
+
+</LinearLayout>
